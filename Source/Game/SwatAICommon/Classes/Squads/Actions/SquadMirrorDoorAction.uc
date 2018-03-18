@@ -114,10 +114,7 @@ state Running
 
 	MirrorDoor();
 
-	if(!bOfficersWerentStacked)
-	{
-		StackUpOfficer(OfficerWithMirror, StackUpPoints[0]);
-	}
+	StackUpSquad(true);
 }
 
 ///////////////////////////////////////////////////////////////////////////////
